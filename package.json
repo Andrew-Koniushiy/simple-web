@@ -9,17 +9,22 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@ai-sdk/groq": "^2.0.22",
+    "@ai-sdk/openai": "^2.0.42",
+    "@ai-sdk/react": "^2.0.59",
+    "ai": "^5.0.59",
+    "next": "15.5.4",
+    "openai": "^6.0.1",
     "react": "19.1.0",
-    "react-dom": "19.1.0",
-    "next": "15.5.4"
+    "react-dom": "19.1.0"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.5.4",
-    "@eslint/eslintrc": "^3"
+    "typescript": "^5"
   }
 }
